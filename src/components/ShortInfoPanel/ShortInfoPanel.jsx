@@ -8,6 +8,7 @@ export const ShortInfoPanel = () => {
         <section className="shortinfo-panel">
             <div className="shortinfo-panel-top">
                 <LocationSearchInput />
+                <button className="home-button"/>
             </div>
         </section>
     )

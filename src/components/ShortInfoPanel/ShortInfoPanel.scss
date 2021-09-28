@@ -1,5 +1,23 @@
+@import '../../assets/styles/variables.scss';
+
 .shortinfo-panel {
     border: 1px solid blue;
     width: 360px;
     margin-right: 32px;
+
+    &-top {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.home-button {
+    background-color: $lightThemeGray;
+    background-image: url("../../assets/icons/home.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 46px;
+    padding-left: 50px;
+    cursor: pointer;
+    @include shadowBorder;
 }

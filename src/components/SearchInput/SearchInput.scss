@@ -2,25 +2,22 @@
 
 .input-container {
     position: relative;
-    cursor: text;
+    cursor: pointer;
 }
 
 .location-search-input {
-    border-radius: 30px;
-    background-color: rgb(246, 246, 246);
+    background-color: $lightThemeGray;
     width: 282px;
     height: 46px;
     padding-left: 50px;
-    box-shadow: $dropShadow;
+    @include shadowBorder;
 }
 
 .autocomplete-dropdown-container {
     max-height: 240px;
     width: 282px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    box-shadow: $dropShadow;
     padding: 5px 15px;
+    @include shadowBorder;
 }
 
 .search-icon {
