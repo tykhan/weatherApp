@@ -1,0 +1,34 @@
+@import '../../assets/styles/variables.scss';
+
+.input-container {
+    position: relative;
+    cursor: text;
+}
+
+.location-search-input {
+    border-radius: 30px;
+    background-color: rgb(246, 246, 246);
+    width: 282px;
+    height: 46px;
+    padding-left: 50px;
+    box-shadow: $dropShadow;
+}
+
+.autocomplete-dropdown-container {
+    max-height: 240px;
+    width: 282px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: $dropShadow;
+    padding: 5px 15px;
+}
+
+.search-icon {
+    background: url("../../assets/icons/search.svg") center no-repeat;
+    height: 34px;
+    width: 27px;
+    z-index: 1;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+}
